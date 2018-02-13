@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Battleship</title>
+   		<link rel="stylesheet" type="text/css" href="battleCSS.css">
+	</head>
+	<body onload="gridSize()">
+		<p>P1 playing field</p>
+
+		<div id="gameButtons">
+		</div>
+
+		<div id="initialStats">
+			P1 has placed <p id="p1Nr"></p>
+			p2 has placed <p id="p2Nr"></p>
+		</div>
+
+		<div id="field1">
+		</div>
+
+		<p>P2 playing field</p>
+
+		<div id="field2">	
+		</div>
+
+		<div id="statistics">
+			P1 shots: <p id="p1Shots"></p>
+			p2 shots: <p id="p2Shots"></p>
+			P1 Hits: <p id="p1Hits"></p>
+			P2 Hits: <p id="p2Hits"></p>
+		</div>
+
+		<!-- Links the HTML document to the java script document -->
+   		<script type="text/javascript" src="battleScript.js"></script>
+	</body>
+</html>

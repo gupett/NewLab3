@@ -1,0 +1,17 @@
+.playButton{
+	background-color: coral;
+	height: 50px;
+    width: 50px;
+}
+
+#shipPlaceButton{
+	background-color: blue;
+	height: 40px;
+	width: 200px;
+}
+
+#startPlayButton{
+	background-color: yellow;
+	height: 40px;
+	width: 200px;
+}
